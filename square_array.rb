@@ -7,5 +7,5 @@
 # end
 
 def square_array(array)
-  array.collect {
+  array.collect { |array|**2 }
 end
